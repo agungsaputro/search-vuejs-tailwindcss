@@ -29,7 +29,7 @@
 
             <div class="h-100 w-full flex items-center justify-center bg-teal-lightest">
                 <div>
-                    <div v-if="(filteredList.length != 0 && search.length >= 3 ) || search.length == 0" class="grid gap-4 grid-cols-3 grid-rows-3" >
+                    <div class="grid gap-4 grid-cols-3 grid-rows-3" >
                         <div v-for ="post in filteredList">
                             <div>
                                 <a v-bind:href="post.url" target="_blank">
